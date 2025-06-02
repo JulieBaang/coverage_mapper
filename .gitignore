@@ -5,3 +5,5 @@ data/master_dk.prj
 data/master_dk.dbf
 data/master_dk.cpg
 data/dhm_aarhus_terraen_10m.tif
+data/.Rhistory
+data/gadm/gadm41_DNK_2_pk.rds
