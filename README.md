@@ -44,8 +44,10 @@ If the app window does not open automatically in RStudio, try:
 **Note:** Keep the data zipped - the main.R script will unzip the data in the correct way.
 
 ## Data Sources
-- Cell tower data: [Mastedatabasen](https://www.mastedatabasen.dk)
-- Elevation data: [Dataforsyningen](https://dataforsyningen.dk/data/930)
+- Municipality polygon: [GADM](https://gadm.org/data.html). License available [here](https://gadm.org/license.html).
+- Cell tower data: [Mastedatabasen](https://www.mastedatabasen.dk) License: CC BY 4.0.
+- Elevation data: [Dataforsyningen](https://dataforsyningen.dk/data/930) License: CC BY 4.0.
+- Adress data: [OSM](https://www.openstreetmap.org/about). License available [here](https://www.openstreetmap.org/copyright/en).
 
 ## License
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
