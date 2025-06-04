@@ -32,12 +32,11 @@ The script has the following dependencies and requirements:
 `geodata` (0.6.2), `leaflet` (2.2.2), `raster` (3.6.32), `sf` (1.0.20), `dplyr` (1.1.4), `terra` (1.8.50), `viewscape` (2.0.2), `tidygeocoder` (1.0.6), `mapview` (2.11.2), `shiny` (1.10.0)
 
 **Running the app:** Clone the repo, and run the main.R script in R.
-
-Cloning the repo should download the `main.R` script and the zipped `data` folder. The main script contains all code needed for running the project including loading and processing the data, and running the Shiny app.
-
 ```r
 source("main.R")
 ```
+Cloning the repo should download the `main.R` script and the zipped `data` folder. The main script contains all code needed for running the project including loading and processing the data, and running the Shiny app. The data folder should include a GeoTIFF-file with the elevation raster data, and a shapefile (including support files) with the cell tower data.
+
 If the app window does not open automatically in RStudio, try:
 - Clicking the Run App button, or
 - Selecting all code (Ctrl+A) and running (Ctrl+Enter)
